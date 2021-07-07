@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    // rename 
+    // rename the main view to 'home'
     return view('home');
 });
